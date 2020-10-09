@@ -66,7 +66,23 @@ $("#EventImg").attr("src",URL);
 $("#EventImg1").css("display","none");
 $("#EventImg2").css("display","none");
 $("#EventImg3").css("display","none");
+$("#EventImg4").css("display","none");
+$("#EventImg5").css("display","none");
 
+if(Cnt==5)
+{
+	$("#EventImg1").css("display","block");
+	$("#EventImg2").css("display","block");
+	$("#EventImg3").css("display","block");
+	$("#EventImg4").css("display","block");
+	$("#EventImg5").css("display","block");
+
+	$("#EventImg1").attr("src",'images/News/img12.jpg');
+	$("#EventImg2").attr("src",'images/News/img13.jpg');
+	$("#EventImg3").attr("src",'images/News/img14.jpg');
+	$("#EventImg4").attr("src",'images/News/img15.jpg');
+	$("#EventImg5").attr("src",'images/News/img16.jpg');
+}
 if(Cnt==4)
 {
 	$("#EventImg1").css("display","block");
@@ -180,6 +196,20 @@ $("#ReadingImg").attr("src",URL);
                     </li>
                 </ul>
             </div>
+			
+				<!-- newly added -->
+            <div class="" id="bs-1" style="
+    color: white;
+    scroll-behavior: smooth;
+    height: 50px !important;
+    white-space: pre-wrap; 
+    border-top: 13px solid transparent;
+    border-image: linear-gradient(to right, #171717 , #ffff0000);
+    border-image-slice: 1;
+    border-bottom: 37px solid transparent;font-face:bold;
+"><b><img src="images\youtubeIMG.png?" style= "max-width: 25px;margin-left:1%">  Live Streaming : <a href="https://www.youtube.com/watch?v=oGSw001Zoak" target="_blank" style="color:white"><u> https://www.youtube.com/watch?v=oGSw001Zoak</u></a>
+			</b></div>
+			 <!-- till here -->
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
@@ -1039,6 +1069,20 @@ $("#ReadingImg").attr("src",URL);
             <div class="row">
                 <div class="latest-news">
 				
+				     <div class="col-md-12">
+                        <div class="latest-post">
+                            <img src="images/News/img1.jpg" class="img-responsive" alt="" style="width:300px;height:300px">
+                            <h4><a href="#">Feast 2020</a></h4>
+                            <div class="post-details">
+                                <span class="date"><strong>09 - 18</strong> <br>Oct , 2020</span>
+                                
+                            </div>
+                            <p>Our feast of 2020 starting from 9th October and ending on 18th October.</p>
+							<a onclick="open_Events('images/News/img1.jpg',5);" data-toggle="modal" class="btn btn-primary"><i class=""></i> Details</a>
+                        </div>
+                    </div>
+					
+					
 			    	<div class="col-md-12">
                         <div class="latest-post">
                             <img src="images/News/img3.jpg" class="img-responsive" alt="" style="width:300px;height:300px">
@@ -1079,19 +1123,7 @@ $("#ReadingImg").attr("src",URL);
                         </div>
                     </div>	!-->
 					
-                    <div class="col-md-12">
-                        <div class="latest-post">
-                            <img src="images/News/img1.jpg" class="img-responsive" alt="" style="width:300px;height:300px">
-                            <h4><a href="#">Feast 2020</a></h4>
-                            <div class="post-details">
-                                <span class="date"><strong>09 - 18</strong> <br>Oct , 2020</span>
-                                
-                            </div>
-                            <p>Our feast of 2020 starting from 9th October and ending on 18th October.</p>
-							<a onclick="open_Events('images/News/img1.jpg',6);" data-toggle="modal" class="btn btn-primary"><i class=""></i> Details</a>
-                        </div>
-                    </div>
-					
+               
 						
 					
                     
@@ -1380,9 +1412,11 @@ $("#ReadingImg").attr("src",URL);
                             <br clear="all" />
 							<div class="single" style="text-align:center">
 				 <img src="images/portfolio/img6.jpg" id="EventImg" alt="" style="width:100%;height:100%;"> <br/><br/>
-				 <img src="images/portfolio/img100.jpg" id="EventImg1" alt="" style="width:100%;height:100%;"> <br/>
-				 <img src="images/portfolio/img100.jpg" id="EventImg2" alt="" style="width:100%;height:100%;"> <br/>
-				 <img src="images/portfolio/img100.jpg" id="EventImg3" alt="" style="width:100%;height:100%;"> 
+				 <img src="" id="EventImg1" alt="" style="width:100%;height:100%;"> <br/>
+				 <img src="" id="EventImg2" alt="" style="width:100%;height:100%;"> <br/>
+				 <img src="" id="EventImg3" alt="" style="width:100%;height:100%;"> <br/>
+				 <img src="" id="EventImg4" alt="" style="width:100%;height:100%;"> <br/>
+				 <img src="" id="EventImg5" alt="" style="width:100%;height:100%;"> 
 		 </div>
                          </div>
                         <br clear="all" />
